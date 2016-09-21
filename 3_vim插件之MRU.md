@@ -7,7 +7,7 @@
 
 ><b>Download:下载地址</b><br>
     http://www.vim.org/scripts/script.php?script_id=521 
-[![内容任意](http://www.vim.org/scripts/script.php?script_id=521 "MRU")](http://www.vim.org/scripts/script.php?script_id=521)
+[![下载地址](http://www.vim.org/scripts/script.php?script_id=521 "MRU")](http://www.vim.org/scripts/script.php?script_id=521)
 
 ><b>Install:安装方法</b><br>
     将下载好的`mru.vim` 插件放到vim安装目录下的`plugin`目录下即可
@@ -34,4 +34,6 @@
     nmap ;s :MRU        # 按;s 打开历史记录
     
     
+><b>Url:github文章地址</b><br>
+[![github文章地址](https://github.com/vimkidgit/article/blob/master/3_vim%E6%8F%92%E4%BB%B6%E4%B9%8BMRU.md "MRU")](vim插件之MRU)
 
