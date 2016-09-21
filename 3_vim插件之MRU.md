@@ -5,12 +5,12 @@
 
 ![MRU插件](http://images.vimkid.com/1_100/3_1.jpg "MRU插件")
 
-
-####下载地址
+><b>Download:下载地址</b><br>
     http://www.vim.org/scripts/script.php?script_id=521 
 [![内容任意](http://www.vim.org/scripts/script.php?script_id=521 "MRU")](http://www.vim.org/scripts/script.php?script_id=521)
 
-####安装方法
+><b>Install:安装方法</b><br>
+    将下载好的mru.vim 插件放到vim安装目录下的plugin目录下即可
 
 ####打开MRU快捷键
     :MRU回车           # 打开MRU历史记录列表
