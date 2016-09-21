@@ -33,7 +33,3 @@
     nmap ;f :MRU<cr>    # 按;f 打开历史记录
     nmap ;s :MRU        # 按;s 打开历史记录
     
-    
-><b>Url:github文章地址</b><br>
-[![vim插件之MRU](vim插件之MRU "vim插件之MRU")](https://github.com/vimkidgit/article/blob/master/3_vim%E6%8F%92%E4%BB%B6%E4%B9%8BMRU.md)
-
