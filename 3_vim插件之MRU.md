@@ -35,5 +35,5 @@
     
     
 ><b>Url:github文章地址</b><br>
-[![github文章地址](https://github.com/vimkidgit/article/blob/master/3_vim%E6%8F%92%E4%BB%B6%E4%B9%8BMRU.md "MRU")](vim插件之MRU)
+[![vim插件之MRU](vim插件之MRU "vim插件之MRU")](https://github.com/vimkidgit/article/blob/master/3_vim%E6%8F%92%E4%BB%B6%E4%B9%8BMRU.md)
 
