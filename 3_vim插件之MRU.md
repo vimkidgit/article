@@ -9,7 +9,6 @@
     http://www.vim.org/scripts/script.php?script_id=521 
 [![内容任意](http://www.vim.org/scripts/script.php?script_id=521 "MRU")](http://www.vim.org/scripts/script.php?script_id=521)
 
-<br/>
 ><b>Install:安装方法</b><br>
     将下载好的mru.vim 插件放到vim安装目录下的plugin目录下即可
 
