@@ -54,6 +54,7 @@
 
 ><b>Tipds:NerdTree帮助</b><br>
     NerdTree帮助文件比较齐全，在neerdtree面板下按下? 即可打开帮助,截图如下:
+
 ![NerdTree插件](http://images.vimkid.com/1_100/7_2.jpg "NerdTree插件")
 
 ####BookMark(书签操作)
