@@ -1,5 +1,5 @@
 #### 官网
-[![]](http://www.vim.org)
+(http://www.vim.org)
     http://www.vim.org    #官网
 
 #### 插件(Plugin)
