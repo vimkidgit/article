@@ -9,7 +9,7 @@
     v       # to Visual mode
 	R       # to Replace mode
     :       # to Comand mode
-    /       # 查找模式
+    /       # to Search mode
 
 ><b>Tips:About mode exchange</b><br>
 
@@ -46,13 +46,13 @@
 
 ##### Commonly used in Normal mode ★★★★☆
 
-    w       # 向后移动1个单词到词首
-    b       # 向前移动1个单词到词首
-    gj      # 向下移动一个位置（长行非常有用)
-    gk      # 向上移动一个位置（长行非常有用)
-	ctrl+e  # 向上翻一行
-	ctrl+y  # 向下翻一行
-	$       # 光标定位到行尾
+    w       # move to next word ,and cursor at first letter
+    b       # move to pre word, and cusor at first letter
+    gj      # move down to the near next line , for the long line, it's useful 
+    g       # move up to the near up line , for the long line, it's useful 
+	ctrl+e  # scroll up with one line
+	ctrl+y  # scroll down with one line
+	$       # to the line's end
 
 ####Three start command★★★☆☆
 
@@ -67,10 +67,9 @@
 	:tabn      # to the next tab
 
 
-><b>结语</b><br>
-    有些朋友可能会觉得用个编辑器要记这么多东西实在麻烦，其实真正有用的是对于代码开发者每天经常用的人，如果文本工作少不建议使用vim	
+><b>Epilogue</b><br>
 
-    Many friends will found that's too many command, it's hard to remember, if you are a developer, you will always work in text file. if you always use the command, then you will remember. Practice makes perfect! Keep going.
+    Many friends will found that's too many command, it's hard to remember, if you are a developer, you will always work in edit text file. if you always use the command, then you will remember. Practice makes perfect! Keep going.
 
 
 
