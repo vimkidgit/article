@@ -1,20 +1,21 @@
-本文只简略介绍vim常用插件，详细参考相关插件文章
+><b>Tips:</b><br>
+    This article just a brief introduction of vim plugin, if you want to know more, please checkout the "Vim plugin" link in this website.
 
-####五星级推荐插件★★★★★
-	MRU         # 快速打开文件历史记录
-	NERDTREE    # 目录树
-	Easymotion  # 当前页快速移动
-	tagbar      # 显示文件类名,方法及变量与taglist类似
-    vundle      # 插件自动管理工具
+####Five start plugin★★★★★
+	MRU         # open file quickly that you had ever opened.
+	NERDTREE    # not only a directory tree!
+	Easymotion  # fast move in current screen 
+	tagbar      # show class, functions,variables similar the taglist plugin
+    vundle      # manage,install your plugin in a easy way!
 
-####四星级推荐插件★★★★☆
-	Dict        # 英语翻译
-	vim-multiple-cursors  # 鼠标多焦点
-    ctags       # 标记插件
+####Four start plugin★★★★☆
+	Dict        # translation tool
+	vim-multiple-cursors  # multiple cursors
+    ctags       # create, jump tags in code
 
-####三星级推荐插件★★★☆☆
-	dbext       # 数据库查询
-    Vim-airline # 状态栏样式
-	txtBrowser  # 格式化查看txt文件
-    powerline   # 状态栏样式
+####Three start plugin★★★☆☆
+	dbext       # database tool in vim, support mysql mongodb and so on
+    Vim-airline # show vim statusline as beauty as you want 
+	txtBrowser  # heightlight .txt format file
+    powerline   # config vim statualine as you want.
 
