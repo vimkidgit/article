@@ -1,7 +1,8 @@
-###vim插件之EasyMotion
-
-><b>Description:介绍</b><br>
+###Vim plugin of EasyMotion
+ 
+><b>Description:</b><br>
     EasyMotion是一个跳转类插件,可以快速定位并跳转指定位置,相当值得推荐,本文只作简单常用 功能介绍详细请官方github，EasyMotion截图如下:
+    EasyMotion is a jump plugin, you can jump every where you want by a very few letter map. that's the most useful plugin i think, screenshot as follows:
 
 ![EasyMotion插件](https://camo.githubusercontent.com/5e4ba9c43e744478405ece72de1cd285dc17079a/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333739373036322f323033393631322f37636166636563382d383961352d313165332d386632632d3566323661366238336566642e676966 "EasyMotion插件")
 
