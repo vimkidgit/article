@@ -1,48 +1,48 @@
 ><b>Tips:</b><br>
-    本文只是摘取vim英文文档作者认为比较有用的精华进行解读, 并不是全文详细翻译,如想看全文详细翻译,请参照vim中文文档,解读的文档版本为vim8.0. 文档位置为"vim安装目录/doc/usr_**.txt"
-## 第一周   
-    usr_toc.txt (1 ~ 355 行文档解读)
+    These series of articles is about vim8.0 doc. I will pick out some important and useful point for you. The doc files is in the vim root directory of "/doc/user_*.txt" 
+## Week 1
+    usr_toc.txt (1 ~ 355 Line)
 
-><b>介绍:</b><br>
-    这一篇文档主要介绍了整个手册的目录,以及每一个文档的主要内容,第一章节的详细章节我就不列举啦,自行参考手册^-^
+><b>Description:</b><br>
+    This document is an overview of all the user-manual, and it list all the subdirectories. If you want to know more, please checkout the file by yourself.
 
-### 开始吧!(Read this from start to end to learn the essential commands)
-    usr_01.txt   # 关于手册
-    usr_02.txt   # 使用vim的第一步
-    usr_03.txt   # 关于移动
-    usr_04.txt   # 来点小改变
-    usr_05.txt   # 调整你个人的配置
-    usr_06.txt   # 使用语词高亮
-    usr_07.txt   # 多文件编辑
-    usr_08.txt   # 分割窗口
-    usr_09.txt   # 使用GUI
-    usr_10.txt   # 来个大改变
-    usr_11.txt   # 崩溃恢复
-    usr_12.txt   # 聪明者的奇淫异巧
+### Getting Started (Read this from start to end to learn the essential commands)
+    usr_01.txt   # About the manuals 
+    usr_02.txt   # The first steps in vim
+    usr_03.txt   # Moving around
+    usr_04.txt   # Making small changes
+    usr_05.txt   # Set you settings
+    usr_06.txt   # Using syntax highlighting
+    usr_07.txt   # Editing more than one file
+    usr_08.txt   # Splitting windows
+    usr_09.txt   # Using the GUI
+    usr_10.txt   # Making big changes
+    usr_11.txt   # Recovering from a crash
+    usr_12.txt   # Clever tricks
 
-### 高效地编辑(Subjects that can be read independently)
-    usr_20.txt   # 快速输入命令行命令
-    usr_21.txt   # 去和回
-    usr_22.txt   # 查找需要编辑的文件
-    usr_23.txt   # 编辑其他文件
-    usr_24.txt   # 快速插入
-    usr_25.txt   # 格式化编辑
-    usr_26.txt   # 重复操作
-    usr_27.txt   # 查找命令和匹配模式
-    usr_27.txt   # 查找命令和匹配模式
-    usr_28.txt   # 折叠
-    usr_29.txt   # 项目间跳转
-    usr_30.txt   # 编辑项目
-    usr_31.txt   # 得用GUI
-    usr_32.txt   # 撤销树
+### Editing Effectively (Subjects that can be read independently)
+    usr_20.txt   # Typing command-line commands quickly 
+    usr_21.txt   # Go awasy and come back
+    usr_22.txt   # Finding the file to edit
+    usr_23.txt   # Editing other files
+    usr_24.txt   # Inserting quickly
+    usr_25.txt   # Editing formatted text
+    usr_26.txt   # Repeating
+    usr_27.txt   # Search commands and patterns
+    usr_28.txt   # Folding
+    usr_29.txt   # Moving through programs
+    usr_30.txt   # Editing programs
+    usr_31.txt   # Exploiting the GUI
+    usr_32.txt   # The undo tree
 
-### vim调优 (Make Vim work as you like it)
-    usr_40.txt   # 制作一个新的命令
-    usr_41.txt   # 写点Vim脚本
-    usr_42.txt   # 添加新菜单
-    usr_43.txt   # 使用文档类型
-    usr_44.txt   # 你的专属语法高亮
-    usr_45.txt   # 选择一门语言
+### Tunning Vim (Make Vim work as you like it)
+    usr_40.txt   # Make new commands
+    usr_41.txt   # Write a Vim script 
+    usr_42.txt   # Add new menus
+    usr_43.txt   # Using filetypes
+    usr_44.txt   # Your own syntax hightlighted
+    usr_45.txt   # Select your language
 
-### vim安装
-    usr_90.txt   # 安装vim
+### vim Install (Makeing Vim run)
+    usr_90.txt   # Installing Vim
+
