@@ -28,43 +28,49 @@
        the number to 1. if the number equals 1, that means Goldbach's conjecture is wrong!
 
 ><b>Optimizing:</b><br>
-    一. 排除2, 3 ,5, 7　倍数.
-    二. 质数池:将前后加入计算的质数放入质数池，计算下一个数时先从质数池里循环,质数池随着计算规模变大自动变大
+    1. Excluding 2, 3 ,5, 7 multiple.
+
+    2. Take the prime interger to the prime pool in counting. At the next loop,
+       Take priority from prime pool to calculate.
 
 
 ####Code:
 ```c
 <?php
 /************************** VimKid ****************************
- * Author:     VimKid
- * Description:哥德巴赫猜想2－1000万 的偶数正确性验证
- * Email:      1779156598@qq.com
- * qq:         1779156598
- * Time:       2016.6.26
- * Web:        www.vimkid.com
+ * Author:      VimKid
+ * Description: This programe will check Goldbach's conjecture 
+                from 2 to 10 million with php code. 
+                It takes about 25 minute.
+ * Email:       1779156598@qq.com
+ * qq:          1779156598
+ * Time:        2016.6.26
+ * Web:         www.vimkid.com
  *
  ************************  www.vimkid.com **********************/
 class GDBH {
     public function __construct(){
         $this->queue = array();
-        $range = "10000000";  /* 范围，认证1000000以内的偶数正确性 */
+        $range = "10000000";  
         $beginTime=microtime(true);
         $this->mainFunction($range,$beginTime);
     }
     function mainFunction($range,$beginTime){
-        // 1. 循环2到指定数字
+        // 1. Taking a even interger from 2 to 10 million to the programe's loops in order.
         for($i=2;$i<=$range;$i=$i+2){
             if($i%10000==0){  // 统计每一万次计算耗时
                 print_r(microtime(true)-$beginTime);
                 print_r(" 秒-----".$i."用时\n");
             }
-            // 2. 判断如果在质数池能找到结果,则不执行后面
+            // 2. Using the prime pool, if the result is true, then continue.
             $queueResult = $this->checkQueue($i);
             if($queueResult == true){
                 continue;  //结束单次循环
             }
-            //3. 将偶数一分为二，如质数性质可知，偶数必然不是质数,那么偶数一分为二
-            //   后如果为偶数，则将分割后第一个数减１，另一个数加1,就可以得到两个奇数
+            // 3. Spliting the loops even interger to two part in average. 
+            //    If one of the result is odd integer, continue.
+            //    If one of the result is even integer, then plus 1. the other one minus 1.
+            //    Then we get two odd integer. 
             $number1 = $i/2;
             $number2 = $number1;
             if($this->getTwo($number1)){ // 如果为偶数，则变为奇数
