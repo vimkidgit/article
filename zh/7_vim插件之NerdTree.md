@@ -7,7 +7,7 @@
 
 ><b>Download:下载地址</b><br>
     https://github.com/scrooloose/nerdtree
-[![下载地址](http://https://github.com/scrooloose/nerdtree "NerdTree")](https://github.com/scrooloose/nerdtree)
+[![下载地址](https://github.com/scrooloose/nerdtree "NerdTree")](https://github.com/scrooloose/nerdtree)
 
 ><b>Install:安装方法</b><br>
     下载github上对应的文件

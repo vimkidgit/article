@@ -7,7 +7,7 @@
 
 ><b>Download:</b><br>
     https://github.com/scrooloose/nerdtree
-[![download](http://https://github.com/scrooloose/nerdtree "NerdTree")](https://github.com/scrooloose/nerdtree)
+[![download](https://github.com/scrooloose/nerdtree "NerdTree")](https://github.com/scrooloose/nerdtree)
 
 ><b>Install:</b><br>
     First, you should download it from github. 
