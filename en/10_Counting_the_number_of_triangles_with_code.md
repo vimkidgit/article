@@ -1,29 +1,29 @@
-####程序计算三角形个数
+####Count triangles with code
 
 
-><b>Description:介绍</b><br>
-    吐槽: 最近老是看到有人发一些数三角形的图，我就懒得数了，写个程序算一下吧。ps: 这个程序可以扩展，所有的图都可以用，只要把里面的参数改一下就好了，住意排除三个点在同一直线的点。
-
-<br>
-><b>原题:</b><br>
-    程序计算五角形包五角星三角形个数如图:
-
-![程序计算五角形包五角星三角形个数](http://images.vimkid.com/1_100/10_1.png "程序计算五角形包五角星三角形个数")
+><b>Description:</b><br>
+    Recently I found that picture from my friends circle,that's a picuture of counting the number of the triangles, so i want to counted it with code. 
 
 <br>
-><b>Resolve:解答</b><br>
-    分析：将每个点定成字母依次定点，分析其中算法，和规律。
-    算法思路：用无向图，只要有三个点能连在一起的，则为三角形，但三个点有可能在同一直线上，所以要排除同一直线上的三个点。
+><b>Question:</b><br>
+    Please count the number of triangles in the picture.
+
+![Count triangles with code](http://images.vimkid.com/1_100/10_1.png "count triangles with code")
 
 <br>
-><b>Resolve:点图</b><br>
+><b>Resolve and Analysis:</b><br>
+    Taking the letters to each of the corner and cross point.
+    Using undirected graph, if there have three point and these three point are not in a straight line, that means it's a triangle.
 
-![程序计算五角形包五角星三角形个数点图](http://images.vimkid.com/1_100/10_2.png "程序计算五角形包五角星三角形个数点图")
 
-####程序代码:
+<br>
+><b>Resolve:</b><br>
+
+![Coun triangles with code](http://images.vimkid.com/1_100/10_2.png "Count triangles with code")
+
+####code:
 ```c
 <?php
-	/* 计算五边形包五角星的三角形数量 */
 	$beginTime=microtime(true);
 	$string = array();
 	$string["a"] = array("ab","ac","ad","ae","af","ag","ai","aj");
@@ -55,26 +55,24 @@
 			}
 		}
 	}
-	$third = array("acf","aci","afi","adg","adj","agj","bcd","bce","bde","bfh","bfj","bhj","cde","cfi","dgj","egh","egi","ehi","fhj","ghi");//排除在同一直线上的三个点
+	$third = array("acf","aci","afi","adg","adj","agj","bcd","bce","bde","bfh","bfj","bhj","cde","cfi","dgj","egh","egi","ehi","fhj","ghi"); // exclude the three point in a straight line
 	$result = array_diff($result,$third);
 	print_r($result);
-	print_r("总数".count($result));
+	print_r("Totals:".count($result));
 	echo "\n";
 	$endTime=microtime(true);
 	$useTime=$endTime-$beginTime;
-	echo "用时".$useTime;
+	echo "Time used:".$useTime;
 
 ?>
 ```
 
-程序计算五角形包五角星三角形个数
+####Result：
 
-####答案(运行结果)：
+![Result](http://images.vimkid.com/1_100/10_3.jpg "Result")
 
-![运行结果](http://images.vimkid.com/1_100/10_3.jpg "运行结果")
+    The result is 35.
 
-    计算出的结果为35个
+####Extension：　
 
-####扩展：　
-
-    只要是算三角形的图都可以用这个算法计算，只要打点定好，把相应的对应点列成数组，并排除同一直线上的点即可。
+    That's not the best way, you can fix it as you want.

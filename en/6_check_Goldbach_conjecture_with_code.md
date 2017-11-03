@@ -58,14 +58,14 @@ class GDBH {
     function mainFunction($range,$beginTime){
         // 1. Taking a even interger from 2 to 10 million to the programe's loops in order.
         for($i=2;$i<=$range;$i=$i+2){
-            if($i%10000==0){  // 统计每一万次计算耗时
+            if($i%10000==0){  // count time use
                 print_r(microtime(true)-$beginTime);
-                print_r(" 秒-----".$i."用时\n");
+                print_r(" second-----".$i."used\n");
             }
             // 2. Using the prime pool, if the result is true, then continue.
             $queueResult = $this->checkQueue($i);
             if($queueResult == true){
-                continue;  //结束单次循环
+                continue;  
             }
             // 3. Spliting the loops even interger to two part in average. 
             //    If one of the result is odd integer, continue.
@@ -73,24 +73,25 @@ class GDBH {
             //    Then we get two odd integer. 
             $number1 = $i/2;
             $number2 = $number1;
-            if($this->getTwo($number1)){ // 如果为偶数，则变为奇数
+            if($this->getTwo($number1)){ // if it's even integer, then change to odd integer
                 $number1 = $number1-1;
                 $number2 = $number2+1;
             }
             while($number1>0){
                 if($number1==1 && $i!=2){  
-                    // 当所有数字都不符合的时候，说明存在偶数不能表示为两个质数,那么哥德巴赫猜想错误
-                    echo "恭喜你！！！，你找到了不符合哥德巴赫猜想的数值!!!,数字为:".$i; die;
+                    // when all the number can not fit, then print
+                    echo "Congratulations, you found that Goldbach conjecture was wrong! And the number is".$i; die;
+
                 }
-                //检查是否3,5 是则跳过数字
+                // Checking the multiple of 3 or 5, if true, continue
                 if($this->checkNumber($number1) || $this->checkNumber($number2)){ 
                     $number1 = $number1-2;
                     $number2 = $number2+2;
                     continue;
                 }else{
-                    //检查是否2,3,5 规则是则跳过数字
+                    // Checking the multiple of 2 or 3 or 5, if true, continue
                     if($this->checkZhiShu($number1) && $this->checkZhiShu($number2)){ 
-                        // 输出偶数对应的质数
+                        // // echo the prime integer from even number 
                         // echo $i."=".$number1."+".$number2."\n"; 
                         $this->putQueue($number1);
                         $this->putQueue($number2);
@@ -105,7 +106,7 @@ class GDBH {
         }
     }
 
-    /* 检查是否3,5 规则*/
+    // Checking the multiple of 3 or 5
     function checkNumber($number){
         if($this->getFive($number)){
             return true;
@@ -115,11 +116,12 @@ class GDBH {
             return false;
         }
     }
-    /* 检查是否是质数 */
+
+    // Checking the prime integer
     function checkZhiShu($test){
-        //$test = 12345; //待检测的数字
+        //$test = 12345; // test number
         $check = true;
-        $i = 7;  // 由于排除了2,3,4,5,6, 所以由７，开始的奇数计算
+        $i = 7;  // Because exclude the multiple of 2,3,4,5,6, so it begin with 7
         $n = floor( sqrt( $test ) );
         while( $i < $n ){
             if( $test % $i == 0 ){
@@ -136,7 +138,7 @@ class GDBH {
         }
     }
 
-    /* 获取数字和是否2倍数,是返回true */
+    // Checking the multiple of 2
     function getTwo($number){
         $last = substr($number,-1);
         if(($last == 0 || $last ==2 || $last == 4 || $last ==6 || $last == 8 ) && $number!=2){
@@ -146,7 +148,7 @@ class GDBH {
         }
     }
 
-    /* 获取数字和是否3倍数,是返回true */
+    // Checking the multiple of 3
     function getThree($number){
         $length = strlen($number);
         $sum = 0;
@@ -160,7 +162,7 @@ class GDBH {
         }
     }
 
-    /* 获取数字和是否5倍数,是返回true */
+    // Checking the multiple of 5
     function getFive($number){
         $last = substr($number,-1);
         $length = strlen($number);
@@ -171,7 +173,7 @@ class GDBH {
         }
     }
 
-    /* 获取数字和是否7, 11 ,13 倍数,是返回true */
+    // Checking the multiple of 7, 11, 13
     function getFilter($number){
         if( $number%7 == 0 && $number != 7  ){
             return true;
@@ -197,11 +199,11 @@ class GDBH {
         return false;
     }
 
-    /* 质数池--(存放最接近要求偶数一半的100个数) 用队列 */
+    // prime pool, storage the latest prime number, use the queue
     function putQueue($number){
-        // 如果已经存在元素则不入队
+        // if the nubmer is not exist, then put it in 
         if(!in_array($number,$this->queue)){
-            // 如果队列大于50 则出队
+            // if the number of queue is bigger than 50 , then push it from queue
             //if(count($this->queue) > 50 ){
             if(count($this->queue) > strlen($number)*8 ){
                 array_shift($this->queue);
@@ -211,13 +213,12 @@ class GDBH {
             }
         }
     }  
-    /* 检查是否在质数池 */
+    // check if the number is in the prime pool
     function checkQueue($number){
         $result = false;
         foreach($this->queue as $k => $v){
             foreach($this->queue as $x => $y){
                 if($v + $y == $number){
-                    // 输出偶数对应的质数
                     // echo $number."=".$v."+".$y."\n";
                     $result = true;
                     return $result;
