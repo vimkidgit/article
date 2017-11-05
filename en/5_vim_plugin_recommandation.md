@@ -1,5 +1,5 @@
 ><b>Tips:</b><br>
-    This article just a brief introduction of vim plugin, if you want to know more, please checkout the "Vim plugin" link in this website.
+    It is a brief introduction of vim plugin. If you want to know more, please checkout the "Vim plugin" link in this website.
 
 ####Five start plugin★★★★★
 	MRU         # open file quickly that you had ever opened.

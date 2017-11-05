@@ -10,28 +10,29 @@
 ![Goldbach's conjecture screenshots](http://images.vimkid.com/1_100/6_3.jpg "Goldbach's conjecture screenshots")
 
 ><b>Alglorithm:</b><br>
-    1. Taking a even interger from 2 to 10 million to the programe's loops in order.
+    1. Taking an even integer from 2 to 10 million to the program's loops in order. 
 
-    2. Using the prime pool, circulating the prime pool,
-       then plus every two of the prime numbers as result, 
-       if the result equal to the loops even interger, then break, otherwise continue.
+    2. Using the prime pool, circulating the prime pool, then plus every two of the 
+       prime numbers as a result, if the result equal to the loops even integer, 
+       then break, otherwise continue. 
 
-    3. Spliting the loops even interger to two part in average. 
-       If one of the result is odd integer, continue.
-       If one of the result is even integer, then plus 1. the other one minus 1.
-       Then we get two odd integer. 
+    3. Splitting loops even integer to two parts in average. 
+       If one of the results is an odd integer, continue.  
+       If one of the results is even integer, then plus 1. 
+       The other one minus. Then we get two odd integers. 
 
-    4. Judging these two odd interger, if they are prime interger, it means, this even interger 
-       in this circulation is right to the Goldbach's conjecture, puting these two prime integer to 
-       the prime pool, then go to the next circulation. If they are not prime integer, then 
-       minus one of the number with 2, the other number plus 2, continuing the judgement until 
-       the number to 1. if the number equals 1, that means Goldbach's conjecture is wrong!
+    4. Judging these two odd integer, if they are prime integer, 
+       it means, this even integer in this circulation is right to the Goldbach's conjecture, 
+       puting these two prime integer to the prime pool, then go to the next circulation. 
+       If they are not prime integer, then minus one of the number of 2, 
+       the other number plus 2, continuing the judgement until the number to 1. 
+       If the number equals 1, that means Goldbach's conjecture is wrong!
 
 ><b>Optimizing:</b><br>
     1. Excluding 2, 3 ,5, 7 multiple.
 
-    2. Take the prime interger to the prime pool in counting. At the next loop,
-       Take priority from prime pool to calculate.
+    2. Taking the prime integer to the prime pool in counting. At the next loop.
+       Taking priority comes from prime pool to calculate.
 
 
 ####Code:
@@ -56,7 +57,7 @@ class GDBH {
         $this->mainFunction($range,$beginTime);
     }
     function mainFunction($range,$beginTime){
-        // 1. Taking a even interger from 2 to 10 million to the programe's loops in order.
+        // 1. Taking a even integer from 2 to 10 million to the programe's loops in order.
         for($i=2;$i<=$range;$i=$i+2){
             if($i%10000==0){  // count time use
                 print_r(microtime(true)-$beginTime);
@@ -67,7 +68,7 @@ class GDBH {
             if($queueResult == true){
                 continue;  
             }
-            // 3. Spliting the loops even interger to two part in average. 
+            // 3. Spliting the loops even integer to two part in average. 
             //    If one of the result is odd integer, continue.
             //    If one of the result is even integer, then plus 1. the other one minus 1.
             //    Then we get two odd integer. 

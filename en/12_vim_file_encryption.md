@@ -20,7 +20,7 @@
     :X            # input a null password
 
 ><b>Tips</b><br>
-    There are have cache in NerdThree plugin, please use :wq to exit file and nerdtree, then you can see the encrypt file.
+    There are have cached in NerdThree plugin, please use :wq to exit file and nerdtree, then, you can see the encrypt file.
 
 
 

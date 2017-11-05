@@ -1,8 +1,8 @@
-####Count triangles with code
+####Counting triangles with code
 
 
 ><b>Description:</b><br>
-    Recently I found that picture from my friends circle,that's a picuture of counting the number of the triangles, so i want to counted it with code. 
+    Recently I found that picture from my friends circle, that's a picture of counting the number of the triangles, so I want to count it with code. 
 
 <br>
 ><b>Question:</b><br>
@@ -13,7 +13,8 @@
 <br>
 ><b>Resolve and Analysis:</b><br>
     Taking the letters to each of the corner and cross point.
-    Using undirected graph, if there have three point and these three point are not in a straight line, that means it's a triangle.
+    Using undirected graph, if there are three points and these three points are not in a straight line, it means that's a triangle.
+
 
 
 <br>

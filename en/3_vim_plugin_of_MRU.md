@@ -1,7 +1,7 @@
 ###Vim plugin of MRU
 
 ><b>Description:</b><br>
-    MRU is a classic plugin, it has been created for many years. This plugin can open the file you had ever opened in a very fast way. 
+    MRU is a classic plugin. It had been created for many years. This plugin can open the file you had ever opened in a very fast way. 
 
 ![MRU](http://images.vimkid.com/1_100/3_1.jpg "MRU")
 
@@ -13,8 +13,8 @@
     Download `mru.vim` , and put it at the vim's `plugin` directory, or you can use vundle to install it.
 
 ####MRU command
-    :MRU <Enter>       # open MRU file list.
-    :MRU pattern<tab>  # open MRU file with search
+    :MRU <Enter>        # open MRU file list.
+    :MRU pattern<tab>   # open MRU file with search
     
 ####MRU shortcuts
     j           # move up in the MRU file list

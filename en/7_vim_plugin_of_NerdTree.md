@@ -1,7 +1,7 @@
 ###vim plugin of NerdTree
 
 ><b>Description:</b><br>
-    NerdTree is not only an directory of file, but also a goods tools to control your file. As shown in the figure
+    NerdTree is not only a directory of file, but also a good tool to control your file. As showed in the figure
 
 ![NerdTree Plugin](http://images.vimkid.com/1_100/7_1.jpg "NerdTree Plugin")
 
@@ -10,8 +10,8 @@
 [![download](https://github.com/scrooloose/nerdtree "NerdTree")](https://github.com/scrooloose/nerdtree)
 
 ><b>Install:</b><br>
-    First, you should download it from github. 
-    Copy the autoload, doc, plugin directory's file to each of the vim root directory.
+    At first, you should download it from github. 
+    Copying the autoload, doc, plugin directory's file to each of the vim root directory.
 
 ####NerdTree command shortcut
     :NERDTreeToggle<Enter>  # open or close NerdTree
@@ -36,24 +36,24 @@
     B           # bookmarks, default value if off
 
 ####Not commondly used shortcut in NerdTree plane
-    go          # preview
-    t           # open in new tab
-    T           # open in new tab silently  
-    i           # open split
-    gi          # preview split
-    s           # open vsplit
-    gs          # preview vsplit
-    X           # close all child nodes of current node recursively
-    e           # explore selected directory
-    P           # go to root
-    p           # go to parent
-    J           # go to last child
-    K           # go to first child
-    I           # hidden files (off)
-    f           # file filters (on)
+    go      # preview
+    t       # open in new tab
+    T       # open in new tab silently  
+    i       # open split
+    gi      # preview split
+    s       # open vsplit
+    gs      # preview vsplit
+    X       # close all child nodes of current node recursively
+    e       # explore selected directory
+    P       # go to root
+    p       # go to parent
+    J       # go to last child
+    K       # go to first child
+    I       # hidden files (off)
+    f       # file filters (on)
 
 ><b>Tips:NerdTree Help</b><br>
-    You can also get help from NerdTree, press "?" for help. As shown in the figure.
+    You can also get help from NerdTree, press "?" for help. As showed in the figure.
 
 ![NerdTree help](http://images.vimkid.com/1_100/7_2.jpg "NerdTree help")
 

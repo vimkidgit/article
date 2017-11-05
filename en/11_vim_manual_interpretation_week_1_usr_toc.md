@@ -1,12 +1,12 @@
 ><b>Tips:</b><br>
-    These series of articles is about vim8.0 doc. I will pick out some important and useful point for you. The doc files is in the vim root directory of "/doc/user_*.txt" 
-## Week 1
+    These series of articles are about vim8.0 doc. I will point out some important and useful point for you. The doc files are in the vim root directory of "/doc/user_*.txt" 
+### Week 1
     usr_toc.txt (1 ~ 355 Line)
 
 ><b>Description:</b><br>
-    This document is an overview of all the user-manual, and it list all the subdirectories. If you want to know more, please checkout the file by yourself.
+    This document is an overview of all the user-manual, and it lists all the subdirectories. If you want to know more, please checkout the file by yourself.
 
-### Getting Started (Read this from start to end to learn the essential commands)
+#### Getting Started (Read this from start to end to learn the essential commands)
     usr_01.txt   # About the manuals 
     usr_02.txt   # The first steps in vim
     usr_03.txt   # Moving around
@@ -20,7 +20,7 @@
     usr_11.txt   # Recovering from a crash
     usr_12.txt   # Clever tricks
 
-### Editing Effectively (Subjects that can be read independently)
+#### Editing Effectively (Subjects that can be read independently)
     usr_20.txt   # Typing command-line commands quickly 
     usr_21.txt   # Go awasy and come back
     usr_22.txt   # Finding the file to edit
@@ -35,7 +35,7 @@
     usr_31.txt   # Exploiting the GUI
     usr_32.txt   # The undo tree
 
-### Tunning Vim (Make Vim work as you like it)
+#### Tunning Vim (Make Vim work as you like it)
     usr_40.txt   # Make new commands
     usr_41.txt   # Write a Vim script 
     usr_42.txt   # Add new menus
@@ -43,6 +43,6 @@
     usr_44.txt   # Your own syntax hightlighted
     usr_45.txt   # Select your language
 
-### vim Install (Makeing Vim run)
+#### vim Install (Makeing Vim run)
     usr_90.txt   # Installing Vim
 

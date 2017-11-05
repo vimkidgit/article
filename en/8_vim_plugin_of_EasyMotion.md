@@ -1,7 +1,7 @@
 ###Vim plugin of EasyMotion
  
 ><b>Description:</b><br>
-    EasyMotion is a jump plugin, you can jump every where you want by a very few letter map. that's the most useful plugin i think, screenshot as follows:
+    EasyMotion is a jump plugin. You can jump everywhere you want with  very few letter map. That's the most useful plugin I think. As showed in the figure:
 
 ![EasyMotion plugin](https://camo.githubusercontent.com/5e4ba9c43e744478405ece72de1cd285dc17079a/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333739373036322f323033393631322f37636166636563382d383961352d313165332d386632632d3566323661366238336566642e676966 "EasyMotion插件")
 
