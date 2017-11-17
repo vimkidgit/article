@@ -12,7 +12,7 @@
     这里面介绍了两种,手册, 一种是用户手册,一种是参考手册,用户手册主要面向解释,从易到难,像读书本一样.参考手册则是精确描述vim 的工作机理.
 
     CTRL-]    # 跳入光标下的主题内容
-    CTRL-O    # 跳回
+    CTRL-O    # 跳回,重复按可以跳回更上层
 
 ### 01.2 关于Vim安装 (Vim installed)
 
@@ -37,8 +37,11 @@
 
 ><b>Vim 30分钟入门文件路径:</b><br>
 
+    $VIMRUNTIME/tutor/*
+    
+
 ><b>Vim 30分钟入门教程在线文档链接:</b><br>
 [![Vim快速入门中文文档](http://www.vimkid.com/zh/14.html "Vim快速入门中文文档")](http://www.vimkid.com/zh/14.html)       http://www.vimkid.com/zh/14.html  <br/>
-[![Vim快速入门英文文档](http://www.vimkid.com/zh/14.html "Vim快速入门英文文档")](http://www.vimkid.com/14.html)       http://www.vimkid.com/14.html
+[![Vim快速入门英文文档](http://www.vimkid.com/14.html "Vim快速入门英文文档")](http://www.vimkid.com/14.html)       http://www.vimkid.com/14.html
 
 
