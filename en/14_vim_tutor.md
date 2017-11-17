@@ -1,3 +1,6 @@
+><b>Tips:</b><br>
+    You can use vim command to control the tutor article, try it !!
+
 ```c
 ===========================================================================
 =  W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7    =
