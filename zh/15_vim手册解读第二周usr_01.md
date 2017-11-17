@@ -9,7 +9,7 @@
 ### 01.1 两种手册 ( Two manuals )
 
 ><b>两种手册:</b><br>
-    这里面介绍了两种,手册, 一种是用户手册,一种是参考手册,用户手册主要面向解释,从易到难,像读书本一样.参考手册,精确描述vim 的工作机理
+    这里面介绍了两种,手册, 一种是用户手册,一种是参考手册,用户手册主要面向解释,从易到难,像读书本一样.参考手册则是精确描述vim 的工作机理.
 
     CTRL-]    # 跳入光标下的主题内容
     CTRL-O    # 跳回
@@ -22,9 +22,19 @@
     :echo $VIMRUNTIME      # vim 运行路径如:/usr/local/share/vim/vim80
     :echo $VIM             # vim 主目录路径如:/usr/local/share/vim
     :set compatible?  #  如果显示 nocompatible  表示正确
-    :scriptnames     # 显示加载的vim 插件和脚本
+    :scriptnames      # 显示加载的vim 插件和脚本
 
-### 01.3 Using the Vim tutor
-    vimtutor        # vim 30 分钟入门教程
+### 01.3 Vim 快速入门 (Using the Vim tutor)
+
+><b>vim 30分钟入门教程:</b><br>
+    本小节介绍了vim快速入门文档,相当实用, 支持多种语言,如中文,英语,法语等.  在命令行输入以下命令即可进入文档.命令后加国家语言参数即可查看不同语言的文档. 
+
+    vimtutor         # vim 30 分钟入门教程 英文版
+    vimtutor zh      # vim 30 分钟入门教程 中文版
+    vimtutor fr      # vim 30 分钟入门教程 法文版
+    gvimtutor        # GUI用户可以用该命令 
+    vimtutor -g      # GUI用户可以用该命令 
+
+><b>Vim 30分钟入门教程在线文档链接:</b><br>
 
 
