@@ -1,4 +1,4 @@
-####Counting triangles with code
+#### Counting triangles with code
 
 
 ><b>Description:</b><br>
@@ -22,7 +22,7 @@
 
 ![Coun triangles with code](http://images.vimkid.com/1_100/10_2.png "Count triangles with code")
 
-####code:
+#### code:
 ```c
 <?php
 	$beginTime=microtime(true);

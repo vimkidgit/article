@@ -1,4 +1,4 @@
-###vim plugin of NerdTree
+### vim plugin of NerdTree
 
 ><b>Description:</b><br>
     NerdTree is not only a directory of file, but also a good tool to control your file. As showed in the figure
@@ -13,10 +13,10 @@
     At first, you should download it from github. 
     Copying the autoload, doc, plugin directory's file to each of the vim root directory.
 
-####NerdTree command shortcut
+#### NerdTree command shortcut
     :NERDTreeToggle<Enter>  # open or close NerdTree
     
-####Commondly used shortcut in NerdTree plane
+#### Commondly used shortcut in NerdTree plane
     Enter       # open in prev window
     o           # open in prev window
     x           # close parent of node
@@ -35,7 +35,7 @@
     mm          # remame cursor filename or directory name
     B           # bookmarks, default value if off
 
-####Not commondly used shortcut in NerdTree plane
+#### Not commondly used shortcut in NerdTree plane
     go      # preview
     t       # open in new tab
     T       # open in new tab silently  
@@ -57,14 +57,14 @@
 
 ![NerdTree help](http://images.vimkid.com/1_100/7_2.jpg "NerdTree help")
 
-####BookMark
+#### BookMark
     :Bookmark <name>      # add the cursor node to Bookmark as name. 
     :ClearBookmarks       # clear Bookmarks
     :ClearAllBookmarks    # clear all the Bookmarks
 
-####NerdTree vimrc config
+#### NerdTree vimrc config
     let NERDChristmasTree = 1    # let Nerdtree colorfuling
 
-####Recommending vimrc map
+#### Recommending vimrc map
     nmap ;j :NERDTreeToggle<cr>    # map open or close NerdTree as ;j in normal mode 
     

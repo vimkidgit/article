@@ -1,4 +1,4 @@
-###vim插件之NerdTree
+### vim插件之NerdTree
 
 ><b>Description:介绍</b><br>
     NerdTree是一个打开目录的插件,可以快速打开目录下的文件,截图如下:
@@ -13,10 +13,10 @@
     下载github上对应的文件
     将下载好的文件下的autoload,doc,plugin,等目录下的文件,copy到vim安装目录下的每个对应的目录下即可
 
-####打开NerdTree快捷键
+#### 打开NerdTree快捷键
     :NERDTreeToggle回车  # 打开或关闭NerdTree
     
-####NerdTree面板中常用快捷键操作
+#### NerdTree面板中常用快捷键操作
     Enter       # 打开焦点下的文件或目录
     o           # 打开焦点下的文件或目录
     x           # 收起目录
@@ -35,7 +35,7 @@
     mm          # 重命名一个文件
     B           # 打开书签
 
-####NerdTree面板中不常用操作
+#### NerdTree面板中不常用操作
     go          # 预览
     t           # 在新标签中打开,进入文件
     T           # 在新标签中打开,不进入文件
@@ -57,14 +57,14 @@
 
 ![NerdTree插件](http://images.vimkid.com/1_100/7_2.jpg "NerdTree插件")
 
-####BookMark(书签操作)
+#### BookMark(书签操作)
     :Bookmark <name>      # 将当前文件添加到书签，并命名为name ,name 可改成其他
     :ClearBookmarks       # 清除书签
     :ClearAllBookmarks    # 清除所有书签
 
-####NerdTree vimrc配置 
+#### NerdTree vimrc配置 
     let NERDChristmasTree = 1    # 让nerdtree彩色显示
 
-####推荐映射 (写到vimrc 下)
+#### 推荐映射 (写到vimrc 下)
     nmap ;j :NERDTreeToggle<cr>    # 按;j 打开或关闭NerdTree
     

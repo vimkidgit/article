@@ -1,4 +1,4 @@
-###vim插件之EasyMotion
+### vim插件之EasyMotion
 
 ><b>Description:介绍</b><br>
     EasyMotion是一个跳转类插件,可以快速定位并跳转指定位置,相当值得推荐,本文只作简单常用 功能介绍详细请官方github，EasyMotion截图如下:
@@ -17,7 +17,7 @@
     下载github上对应的文件
     将下载好的文件下的autoload,doc,plugin,等目录下的文件,copy到vim安装目录下的每个对应的目录下即可
 
-####EasyMotion快捷键
+#### EasyMotion快捷键
 	\\w    # 向后查找单词(find word after)
     \\W    # 向前查找单词(find word before)
     \\e    # 向后查找，定位到词尾(find word end after)
@@ -26,7 +26,7 @@
     \\F	   # 向前查找单字(find letter before)
 
 
-####推荐映射 (写到vimrc 下)
+#### 推荐映射 (写到vimrc 下)
     nmap  fw <leader><leader>w     # 将\\w 映射为fw 
     nmap  fW <leader><leader>W     # 将\\W 映射为fW
     nmap  fe <leader><leader>e     # 将\\e 映射为fe

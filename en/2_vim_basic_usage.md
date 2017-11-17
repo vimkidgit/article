@@ -1,8 +1,8 @@
-###Vim basic use
+### Vim basic use
 
-####Five start Command ★★★★★
+#### Five start Command ★★★★★
 
-#####Mode exchange ★★★★★
+##### Mode exchange ★★★★★
 
     esc     # to Normal mode
     i       # to Insert mode
@@ -40,7 +40,7 @@
 	:%s/hello/helloworld/g  # replace all the "hello" as "helloworld"
 
 　
-####Four start command★★★★☆
+#### Four start command★★★★☆
 
 ##### Commonly used in Normal mode ★★★★☆
 
@@ -52,7 +52,7 @@
 	ctrl+y  # scroll down with one line
 	$       # to the line's end
 
-####Three start command★★★☆☆
+#### Three start command★★★☆☆
 
 ##### Commonly used in Normal mode ★★★☆☆
 	ggvG=   # auto format the code

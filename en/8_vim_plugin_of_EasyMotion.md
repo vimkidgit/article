@@ -1,4 +1,4 @@
-###Vim plugin of EasyMotion
+### Vim plugin of EasyMotion
  
 ><b>Description:</b><br>
     EasyMotion is a jump plugin. You can jump everywhere you want with  very few letter map. That's the most useful plugin I think. As showed in the figure:
@@ -16,7 +16,7 @@
 ><b>Install:</b><br>
     Download package from github, then put the autoload,doc,plugin directory to each of the vim directory, you can also use vundle to install it.
 
-####EasyMotion shortcut
+#### EasyMotion shortcut
 	\\w    # find word after
     \\W    # find word before
     \\e    # find word end after
@@ -24,7 +24,7 @@
     \\f	   # find letter after
     \\F	   # find letter before
 
-####recommand vimrc map
+#### recommand vimrc map
     nmap  fw <leader><leader>w     # normal map \\w as fw 
     nmap  fW <leader><leader>W     # normal map \\W as fW
     nmap  fe <leader><leader>e     # normal map \\e as fe

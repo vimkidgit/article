@@ -1,21 +1,21 @@
-####Vim file encryption
+#### Vim file encryption
 
 ><b>Desciption</b><br>
     :X  is a command at vim command mode, it can encrypt the file to a secure way.
 
-######Command
+###### Command
     :X     # encrypt file command
 
-######Encryption
+###### Encryption
     vim test.txt  # making a new file
         test      # input your content
     :X            # input password to encrypt file
     :wq           # save and exit
 
-######Decryption
+###### Decryption
     vim test.txt  # input password to decrypt file
 
-######Delete the passsword
+###### Delete the passsword
     vim test.txt  # input password decrypt the file
     :X            # input a null password
 
