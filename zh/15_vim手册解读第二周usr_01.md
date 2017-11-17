@@ -3,7 +3,7 @@
 
 ## 第二周   
 ><b>介绍:</b><br>
-    usr_01.txt (1 ~ 192 行文档解读)
+    本文对vim手册 usr_01.txt (1 ~ 192 行文档解读)
     本文介绍了vim 手册相关的一些内容
 
 ### 01.1 两种手册 ( Two manuals )
@@ -13,11 +13,10 @@
 
     CTRL-]    # 跳入光标下的主题内容
     CTRL-O    # 跳回
-    
 
 ### 01.2 关于Vim安装 (Vim installed)
 
-><b></b><br>
+><b>vimrc路径:</b><br>
     这个小节介绍了vimrc 的路径,分别介绍了Unix, MS-DOS,Amiga 三种操作系统下vimrc 配置文件的设置方法,详情可以自行参考文档usr_01.txt. vimrc 配置文件一般放在`$VIM`目录下,如/usr/local/share/vim/vimrc,可以通过以下命令查找具体目录路径.
 
     :echo $VIMRUNTIME      # vim 运行路径如:/usr/local/share/vim/vim80
