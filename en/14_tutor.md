@@ -1,6 +1,6 @@
-===============================================================================
-=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      =
-===============================================================================
+####===========================================================================
+####=  W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7    =
+####===========================================================================
 
      Vim is a very powerful editor that has many commands, too many to
      explain in a tutor such as this.  This tutor is designed to describe
@@ -22,7 +22,7 @@
      the   j   key enough times to move the cursor so that Lesson 1.1
      completely fills the screen.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			Lesson 1.1:  MOVING THE CURSOR
+### Lesson 1.1:  MOVING THE CURSOR
 
 
    ** To move the cursor, press the h,j,k,l keys as indicated. **
@@ -45,7 +45,7 @@ NOTE: The cursor keys should also work.  But using hjkl you will be able to
       move around much faster, once you get used to it.  Really!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			    Lesson 1.2: EXITING VIM
+###Lesson 1.2: EXITING VIM
 
 
   !! NOTE: Before executing any of the steps below, read this entire lesson!!
