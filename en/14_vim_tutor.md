@@ -1,5 +1,5 @@
 ><b>Tips:</b><br>
-    You can use vim command to control the tutor article, try it !!
+    You can use vim command to read the tutor article, try it !!
 
 ```c
 ===========================================================================
