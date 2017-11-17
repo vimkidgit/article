@@ -35,6 +35,8 @@
     gvimtutor        # GUI用户可以用该命令 
     vimtutor -g      # GUI用户可以用该命令 
 
+><b>Vim 30分钟入门文件路径:</b><br>
+
 ><b>Vim 30分钟入门教程在线文档链接:</b><br>
 [![Vim快速入门中文文档](http://www.vimkid.com/zh/14.html "Vim快速入门中文文档")](http://www.vimkid.com/zh/14.html)       http://www.vimkid.com/zh/14.html  <br/>
 [![Vim快速入门英文文档](http://www.vimkid.com/zh/14.html "Vim快速入门英文文档")](http://www.vimkid.com/14.html)       http://www.vimkid.com/14.html
