@@ -33,3 +33,7 @@ http://vim-tips.com/random_tips/txt  # 数据接口,可写到vim脚本获取哦
 #### 工具(Tools)
 
 http://www.atool.org/vim.php   # 在线vim学习工具
+
+#### 书本(The Vim Books)
+
+http://iccf-holland.org/click5.html  # vim 书本推荐

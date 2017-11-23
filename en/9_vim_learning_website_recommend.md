@@ -33,3 +33,7 @@ http://vim-tips.com/random_tips/txt  # vim daily tips api, you can you vimscript
 #### Tools
 
 http://www.atool.org/vim.php   # learn vim online
+
+#### The Vim Books
+
+http://iccf-holland.org/click5.html  # The vim books
