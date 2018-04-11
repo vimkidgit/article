@@ -8,99 +8,95 @@
     本文对是该教程的一个压缩整理
     阅读本文前请先对vim的模式进行了解，主要了解插入模式(insert)和普通模式　（normal)
 
-### 01 第一讲 
-    j       # 光标向下移动
-    k       # 光标向上移动
-    l       # 光标向右移动
-    h       # 光标向左移动
-    <ESC>   # 进入normal 普通模式
-    :q!     # 退出编辑
-    x       # 删除光标所在位置的一个字符
-    i       # 从普通模式进入插入模式,插入模式可以输入内容
-    A       # 从行尾进行添加,并进入插入模式
-    :wq     # 保存退出
+### 01 Lesson 1
+    j       # moves down
+    k       # moves up
+    l       # moves right
+    h       # moves left
+    <ESC>   # go to normal mode
+    :q!     # exits the editor
+    x       # delete the charactor under the cursor
+    i       # insert text 
+    A       # append text
+    :wq     # save a file and exit
 
 
-### 02 第二讲 
-    dw      # 删除一个单词
-    d$      # 从当前光标删除到行末
-    w       # 向前移动一个单词
-    2w      # 向前移动两个单词
-    3w      # 向前移动三个单词
-    0       # 移动光标到行首
-    d2w     # 删除两个单词
-    dd      # 删除一行
-    2dd     # 删除两行
-    u       # 撤销改动,按一次撤销一次
-    U       # 撤销一行所有的改动
-    Ctrl-U  # 重做撤销
+### 02 Lesson 2
+    dw      # delete a word 
+    d$      # delete to the end of the line 
+    w       # move the cursor one words forward
+    2w      # move the cursor two words forward
+    3w      # move the cursor three words forward
+    0       # to move to the start of the line
+    d2w     # delete two word
+    dd      # delete the line
+    2dd     # delete two lines
+    u       # undo the last commands 
+    U       # fix a whole line
+    Ctrl-R  # undo the undo's 
 
-><b>第二讲涉及语法:</b><br>
+><b>Lesson 2 Tips:</b><br>
     d [number] motion
 
-### 03 第三讲 
-    p       # 将最后一次删除或复制的内容粘贴
-    r       # 替换一个字符
-    ce      # 删除一个单词并进入插入模式
-    cw      # 删除一个单词并进入插入模式
+### 03 Lesson3
+    p       # put previously deleted text after the cursor 
+    r       # replace the charcter
+    ce      # change until the end of a word
 
-><b>第三讲涉及语法:</b><br>
+><b>Lesson 3 Tips:</b><br>
     c [number] motion
 
-### 04 第四讲 
-    Ctrl-g  # 显示当前编辑文件中当前光标所在行位置以及文件状态信息。
-    /       # 正向搜索命令,如/hello  查找文中的hello, 按n 查找下一个
-    ?       # 反向搜索,同上
-    Ctrl-o  # 回到上一个编辑的位置,重复按回退多步
-    Cgrl-i  # 跳传到较新的位置
-    %       # 可以查找配对的括号 )、]、} 
-    :s/old/new/g  # 替换old为new, 不需要确认
-    :s/old/new/gc  # 替换old为new 并逐个确认
+### 04 Lesson4
+    Ctrl-g  # show your location in the file and the file status
+    /       # followed by a phrase to search for the phrase  
+    ?       # search for a phrase in the backward direction  
+    Ctrl-o  # go back to where you came from  
+    Cgrl-i  # go to the latest position
+    %       # find a matching ),], or }
+    :s/old/new/g  # substitute 'new' for 'old' 
+    :s/old/new/gc  # substitute 'new'for 'old' with confirm
 
-### 05 第五讲 
-    :!       # 执行外部命令
-    :!ls     # 执行一个ls命令
-    :w TEST  # 保存文件，将文件命名为TEST
-    :!del TEST  # MS-DOS下删除TEST文件
-    :!rm  TEST  # Unix  下删除TEST文件
-    :r TEST    # 提取TEST文件内容
-    :r !ls     # 提取ls 命令的输出
+### 05 Lesson 5 
+    :!       # execute an external command
+    :!ls     # execute an external command 'ls'
+    :w TEST  # save file with filename TEST
+    :!del TEST  # MS-windows removes file TEST
+    :!rm  TEST  # Unix  removes file TEST
+    :r TEST    # retrieves disk file TEST and puts iit below the cursor position
 
     
-### 06 第六讲 
-    o    # 在光标的下方打开新的一行并进入插入模式 
-    O    # 在光标的上方打开新的一行并进入插入模式 
-    a    # 在光标之后插入文本
-    A    # 可以在光标所在行的行末之后插入文本。
-    R    # 可连续替换多个字符按Esc退出替换
-    y    # 复制文本
-    e    # 使光标移动到单词末尾
-    p    # 粘贴文本
-    /    # 进入查找, 按n 进入查找下一个
-    :set ic     # 查找忽略大小写 
-    :nohlsearch  # 移除匹配欺罔的高亮显示
+### 06 Lesson 6  
+    o    # open a line below the cursor and place you in insert mode 
+    O    # open a line upon  the cursor and place you in insert mode
+    a    # insert text after the cursor
+    R    # replace multiple charactor, press esc to exit
+    y    # copy text
+    p    # past
+    /    # to search mode
+    :set ic     # ignore case 
+    :nohlsearch  # remove the hightlighting of matches
     
-><b>第三讲涉及选项:</b><br>
-    :set xxx    ＃ 设置选项
+><b>Lesson6 Tips:</b><br>
+    :set xxx    ＃ set option
 
 
-### 07 第七讲 
-    ctrl+w    # 在窗口之间跳转    
-    F1        # 打开帮助文件
-    HELP      # 打开帮助文件
-    :help     # 打开帮助文件
-    :help w   # 打开关于w 的帮助
-    :help c-CTRL-D   ＃ 打开ctrl-D 快捷键的帮助
+### 07 Lesson 7
+    ctrl+w    # jump from one windows to another
+    F1        # open help file
+    HELP      # open help file
+    :help     # open help file
+    :help w   # open help about w 
+    :help c-CTRL-D   ＃open help about c-CTRL-D
 	:help insert-index
 	:help user-manual
-    :q         # 关闭帮助窗口
-	:help cmd   # 打开cmd命令的帮助 
-    :help vimrc-intro   # vimrc文件帮助
-    :edit ~/.vimrc		# 这是 Unix 系统打开vimrc配置文件所使用的命令
-    :edit $VIM/_vimrc	# 这是 MS-Windows 系统打开vimrc配置文件所使用的命令
-    :write    # 保存文件同  :w 一样 
-    ctrl-d    # 命令模式下提示相关命令列表
-    TAB       # 补全命令
+    :q         # exit 
+	:help cmd   # open help about cmd
+    :help vimrc-intro   # open help about vimrc
+    :edit ~/.vimrc		# exit vimrc file in unix
+    :edit $VIM/_vimrc	# exit vimrc file in windows
+    :write    # write file
+    ctrl-d    # show a list of tips commands 
+    TAB       # Vim will complete the name 
 
 
 
