@@ -54,19 +54,59 @@
     Ctrl-o  # 回到上一个编辑的位置,重复按回退多步
     Cgrl-i  # 跳传到较新的位置
     %       # 可以查找配对的括号 )、]、} 
-    :s/old/new/g  # 替换old为new
+    :s/old/new/g  # 替换old为new, 不需要确认
+    :s/old/new/gc  # 替换old为new 并逐个确认
+
+### 05 第五讲 
+    :!       # 执行外部命令
+    :!ls     # 执行一个ls命令
+    :w TEST  # 保存文件，将文件命名为TEST
+    :!del TEST  # MS-DOS下删除TEST文件
+    :!rm  TEST  # Unix  下删除TEST文件
+    :r TEST    # 提取TEST文件内容
+    :r !ls     # 提取ls 命令的输出
 
     
+### 06 第六讲 
+    o    # 在光标的下方打开新的一行并进入插入模式 
+    O    # 在光标的上方打开新的一行并进入插入模式 
+    a    # 在光标之后插入文本
+    A    # 可以在光标所在行的行末之后插入文本。
+    R    # 可连续替换多个字符按Esc退出替换
+    y    # 复制文本
+    e    # 使光标移动到单词末尾
+    p    # 粘贴文本
+    /    # 进入查找, 按n 进入查找下一个
+    :set ic     # 查找忽略大小写 
+    :nohlsearch  # 移除匹配欺罔的高亮显示
     
-
-    
-
-
+><b>第三讲涉及选项:</b><br>
+    :set xxx    ＃ 设置选项
 
 
+### 07 第七讲 
+    ctrl+w    # 在窗口之间跳转    
+    F1        # 打开帮助文件
+    HELP      # 打开帮助文件
+    :help     # 打开帮助文件
+    :help w   # 打开关于w 的帮助
+    :help c-CTRL-D   ＃ 打开ctrl-D 快捷键的帮助
+	:help insert-index
+	:help user-manual
+    :q         # 关闭帮助窗口
+	:help cmd   # 打开cmd命令的帮助 
+    :help vimrc-intro   # vimrc文件帮助
+    :edit ~/.vimrc		# 这是 Unix 系统打开vimrc配置文件所使用的命令
+    :edit $VIM/_vimrc	# 这是 MS-Windows 系统打开vimrc配置文件所使用的命令
+    :write    # 保存文件同  :w 一样 
+    ctrl-d    # 命令模式下提示相关命令列表
+    TAB       # 补全命令
 
-><b>Vim tutor 原文中文文档链接:</b><br>
-[![Vim快速入门中文文档](http://www.vimkid.com/zh/14.html "Vim Tutor")](http://www.vimkid.com/zh/14.html)       http://www.vimkid.com/zh/14.html  <br/>
-[![Vim快速入门英文文档](http://www.vimkid.com/14.html "Vim Tutor")](http://www.vimkid.com/14.html)       http://www.vimkid.com/14.html
+
+
+
+
+
+
 
 
